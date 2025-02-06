@@ -15,7 +15,15 @@ const Ourshop = () => {
           {" "}
           <Image src={img2} alt="img" />{" "}
         </li>
-        <li></li>
+        <li>
+          {" "}
+          <iframe
+            className="w-full h-64 rounded-lg"
+            src="https://www.google.com/maps?q=Addis+Ababa,Ethiopia&output=embed"
+            allowFullScreen
+            title="Google Maps location of Addis Ababa, Ethiopia"
+          ></iframe>
+        </li>
       </ul>
     </div>
   );
