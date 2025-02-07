@@ -75,7 +75,7 @@ const Navbar = () => {
             ></link>
           </li>
           <li className="hover:text-white transition-colors">
-            <a href="#services">Service</a>
+            <a href="#service">Service</a>
           </li>
           <li className="hover:text-white transition-colors">
             <a href="#about">About</a>
