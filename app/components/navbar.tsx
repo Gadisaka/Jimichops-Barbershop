@@ -59,7 +59,7 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <ul className="hidden lg:flex gap-5 text-[#D9AC1E] items-center font-bold text-xl">
-          <li className="bg-[#F4CD54] text-[#163F39] px-4 py-2 rounded-2xl">
+          <li className="bg-[#F4CD54] text-[#0C3B34] cursor-pointer font-semibold py-3 px-6 rounded-full hover:scale-105 transition-transform">
             <a
               className=""
               data-appointlet-modal
@@ -74,13 +74,13 @@ const Navbar = () => {
               rel="stylesheet"
             ></link>
           </li>
-          <li>
+          <li className="hover:text-white transition-colors">
             <a href="#services">Service</a>
           </li>
-          <li>
+          <li className="hover:text-white transition-colors">
             <a href="#about">About</a>
           </li>
-          <li>
+          <li className="hover:text-white transition-colors  ">
             <a href="#pricing">Pricing</a>
           </li>
         </ul>

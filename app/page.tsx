@@ -1,9 +1,9 @@
-import About from "./components/about";
+import About from "./pages/about/page";
 import Footer from "./components/footer";
 import Main from "./components/home";
 import Ourshop from "./components/ourshop";
-import Pricing from "./components/pricing";
-import Services from "./components/services";
+import Pricing from "./pages/pricing/page";
+import Services from "./pages/service/page";
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { StaticImageData } from "next/image";
 
-interface Service {
+export interface ServiceProps {
   id: number;
   title: string;
   description: string;
@@ -10,7 +10,7 @@ interface Service {
 }
 
 interface ServiceItemProps {
-  data: Service;
+  data: ServiceProps;
 }
 
 const ServiceItem = ({ data }: ServiceItemProps) => {
