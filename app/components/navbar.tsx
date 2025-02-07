@@ -113,13 +113,13 @@ const Navbar = () => {
             className="absolute top-16 right-5  backdrop-blur-sm border text-[#D9AC1E] w-48  shadow-lg rounded-lg p-4"
           >
             <ul className="flex flex-col gap-4 text-center">
-              <li>
+              <li onClick={() => handleClick()}>
                 <a href="#service">Service</a>
               </li>
-              <li>
+              <li onClick={() => handleClick()}>
                 <a href="#about">About</a>
               </li>
-              <li>
+              <li onClick={() => handleClick()}>
                 <a href="#pricing">Pricing</a>
               </li>
             </ul>
