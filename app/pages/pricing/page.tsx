@@ -67,10 +67,10 @@ const Pricing = () => {
         Our Pricing
       </motion.h2>
 
-      <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10">
+      <div className=" flex flex-col md:flex-row items-center justify-center  gap-10">
         {/* Left Column - First 3 services */}
-        <div className="flex-1 space-y-6">
-          {pricingData.slice(0, 4).map((item, index) => (
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 justify-between space-y-6">
+          {pricingData.map((item, index) => (
             <motion.div
               key={item.id}
               className="text-lg"
@@ -87,40 +87,8 @@ const Pricing = () => {
               <p className="text-sm text-[#F4CD54]">{item.description}</p>
             </motion.div>
           ))}
-        </div>
-
-        {/* Vertical Divider */}
-        <motion.div
-          className="hidden md:block w-[2px] z-20 h-full bg-[#F4CD54]"
-          initial={{ opacity: 0, scaleY: 0 }}
-          whileInView={{ opacity: 1, scaleY: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true }}
-        ></motion.div>
-
-        {/* Right Column - Last 2 services & Button */}
-        <div className="flex-1 space-y-6">
-          {pricingData.slice(4).map((item, index) => (
-            <motion.div
-              key={item.id}
-              className="text-lg"
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.1 }}
-              viewport={{ once: true }}
-            >
-              <p className="font-bold">
-                {item.name}{" "}
-                <span className="inline-block w-40 border-dotted border-b border-[#F4CD54]"></span>{" "}
-                {item.price}
-              </p>
-              <p className="text-sm text-[#F4CD54]">{item.description}</p>
-            </motion.div>
-          ))}
-
-          {/* Appointment Button */}
           <motion.div
-            className="mt-6 flex justify-start"
+            className="my-6 z-10 flex justify-start "
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
@@ -147,6 +115,7 @@ const Pricing = () => {
           </motion.div>
         </div>
       </div>
+      {/* </div> */}
     </motion.div>
   );
 };

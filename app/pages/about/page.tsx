@@ -48,7 +48,7 @@ const About: React.FC = () => {
       >
         <iframe
           src="https://drive.google.com/file/d/1k9sq6zVbYaAOjLSW-s1ibt5Rkc4cKl3N/preview"
-          className="bg-[#0C3B34] h-[350px] lg:h-[550px] lg:w-[450px] w-[300px] p-5 rounded-lg"
+          className=" h-[350px] lg:h-[550px] lg:w-[450px] w-[300px] p-5 rounded-lg"
           width="100%"
           height="100%"
           allow="autoplay"

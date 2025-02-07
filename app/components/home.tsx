@@ -85,7 +85,7 @@ const Main = () => {
       >
         <Image src={barber} alt="barber" className="w-3/4 lg:w-full" />
         <motion.div
-          className="flex lg:hidden flex-col bg-[#F4CD54] lg:bg-[#163F39] items-center w-full p-5 gap-5"
+          className="flex lg:hidden flex-col bg-[#F4CD54] lg:bg-[#163F39] items-center w-screen p-5 gap-5"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8 }}

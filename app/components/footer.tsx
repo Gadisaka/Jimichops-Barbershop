@@ -18,10 +18,10 @@ const Footer = () => {
           <p className="text-xl font-bold text-[#F4CD54]">
             Sunday-Sunday 2:00AM-2:00PM LT
           </p>
-          <p className="text-xl font-bold text-[#F4CD54] flex items-center">
+          <p className="text-xl font-bold text-white flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5 mr-2"
+              className="lg:h-5 h-20 w-20 lg:w-5 mr-2"
               viewBox="0 0 20 20"
               fill="currentColor"
             >
