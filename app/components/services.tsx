@@ -55,13 +55,21 @@ const ServiceItems = [
 
 const Services = () => {
   return (
-    <div className="w-full max-h-fit flex flex-col gap-7 p-5 lg:p-11 lg:px-52 bg-[#163F39] lg:bg-[#F4CD54]">
+    <div
+      className="w-full max-h-fit flex flex-col gap-7 p-5 lg:p-11 lg:px-52 bg-[#163F39] lg:bg-[#F4CD54]"
+      id="services"
+    >
       <h1 className="text-3xl text-[#F4CD54] lg:text-[#163F39] font-bold">
         Services
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
         {ServiceItems.map((service) => {
-          return <ServiceItem data={service} key={service.id} />;
+          return (
+            <div key={service.id}>
+              <ServiceItem data={service} key={service.id} />
+              <hr className="my-3 border-t-2 border-[#F4CD54] block lg:hidden" />
+            </div>
+          );
         })}
       </div>
     </div>

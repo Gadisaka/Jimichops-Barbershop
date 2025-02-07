@@ -1,5 +1,8 @@
 import About from "./components/about";
+import Footer from "./components/footer";
 import Main from "./components/home";
+import Ourshop from "./components/ourshop";
+import Pricing from "./components/pricing";
 import Services from "./components/services";
 
 export default function Home() {
@@ -8,6 +11,10 @@ export default function Home() {
       <Main />
       <Services />
       <About />
+      <Ourshop />
+      <Pricing />
+      <hr className="border-t-2 border-[#F4CD54]" />
+      <Footer />
     </div>
   );
 }

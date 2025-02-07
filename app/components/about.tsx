@@ -3,7 +3,10 @@ import { AboutSVG } from "@/app/components/aboutSVG";
 
 const About = () => {
   return (
-    <div className="w-full max-h-fit flex flex-col lg:flex-row justify-center  text-center lg:text-left lg:gap-8 gap-4 items-center py-10 lg:py-20">
+    <div
+      id="about"
+      className="w-full max-h-fit flex flex-col lg:flex-row justify-center  text-center lg:text-left lg:gap-8 gap-4 items-center py-10 lg:py-20"
+    >
       <div className="flex flex-col gap-5 items-center">
         <h1 className="text-3xl font-bold mb-5 text-[#F4CD54]">About Us</h1>
         {AboutSVG}
