@@ -59,7 +59,7 @@ const Services: React.FC = () => {
   return (
     <motion.div
       className="w-full max-h-fit flex flex-col gap-7 p-5 lg:p-11 lg:px-52 bg-[#163F39] lg:bg-[#F4CD54]"
-      id="services"
+      id="service"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
