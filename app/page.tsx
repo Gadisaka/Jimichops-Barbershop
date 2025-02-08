@@ -4,6 +4,7 @@ import Main from "./components/home";
 import Ourshop from "./components/ourshop";
 import Pricing from "./pages/pricing/page";
 import Services from "./pages/service/page";
+import Barbers from "./pages/barbers/page";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
       <Main />
       <Services />
       <About />
-      <Ourshop />
+      <Barbers />
       <Pricing />
+      <Ourshop />
       <hr className="border-t-2 border-[#F4CD54]" />
       <Footer />
     </div>
