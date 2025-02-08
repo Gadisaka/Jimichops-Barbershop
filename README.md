@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jimichops
 
-## Getting Started
+## Description
 
-First, run the development server:
+Welcome to **Jimichops**, your go-to solution for booking and information services for a barbershop located in Addis Ababa. This project is designed to help customers easily book appointments with their favorite barber and get all the necessary information about the barbershop. Whether you need a quick trim or a complete makeover, Jimichops has got you covered.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [License](#license)
+- [Contact](#contact)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Jimichops is built using modern web technologies to ensure a seamless and efficient user experience:
 
-## Learn More
+- **Next.js**: A powerful React framework for building server-side rendered applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
+- **TypeScript**: A statically typed superset of JavaScript that enhances code quality and maintainability.
+- **Lucid React**: A library for building interactive user interfaces.
+- **Framer Motion**: A library for creating smooth animations and transitions.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Jimichops offers a range of features to enhance your barbershop experience:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Book Appointments**: Easily book appointments with your favorite barbers at your convenience.
+- **Barbershop Information**: Get detailed information about the barbershop, including services offered, operating hours, and location.
+- **Available Time Slots**: View available time slots and choose the one that best fits your schedule.
+- **Service Details**: Learn more about the various services offered by the barbershop, including pricing and duration.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+Created by Gadisa Kasaye. If you have any questions or suggestions, feel free to contact me at Gadisaka04@gmail.com . You can also check my website on www.gadisa.software for updates and more information.
+
+Thank you for choosing Jimichops! We hope you have a great experience.
