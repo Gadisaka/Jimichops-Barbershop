@@ -38,7 +38,7 @@ const Barbers = () => {
         {" "}
         <h1>Barbers </h1>{" "}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 w-fit justify-items-center  gap-10">
+      <div className="grid grid-cols-1  lg:grid-cols-3 w-fit justify-items-center  gap-10">
         {barbers.map((barber) => {
           return (
             <BarberCard
