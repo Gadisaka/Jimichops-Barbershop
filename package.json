@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@appointlet/appointlet.js": "^3.0.7",
+    "@calcom/embed-react": "^1.5.2",
     "framer-motion": "^12.4.0",
     "gsap": "^3.12.7",
     "lucide-react": "^0.474.0",

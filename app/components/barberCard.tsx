@@ -23,7 +23,19 @@ const BarberCard = ({ name, link, photo }: BarberCardProps) => {
       </div>
       <h2 className="text-white">{name}</h2>
       <button className="bg-[#F4CD54] rounded-full text-xl px-6 py-1 text-[#163F39]">
-        Book <a href={link}></a>
+        Book{" "}
+        <a
+          data-appointlet-modal
+          href={link}
+          style={{ backgroundColor: "#F4CD54" }}
+        >
+          Book Appointment with {name}
+        </a>
+        <script async defer src="https://js.appointlet.com/"></script>
+        <link
+          href="https://js.appointlet.com/styles.css"
+          rel="stylesheet"
+        ></link>
       </button>
     </div>
   );

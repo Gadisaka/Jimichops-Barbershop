@@ -4,28 +4,18 @@ import BarberCard from "@/app/components/barberCard";
 
 const barbers = [
   {
-    name: "John Doe",
+    name: "Bisrat",
     link: "/barbers/john-doe",
     photo: barber1,
   },
   {
-    name: "Jane Smith",
+    name: "Alesemunigus",
     link: "/barbers/jane-smith",
     photo: barber1,
   },
   {
-    name: "Mike Johnson",
+    name: "Rahel",
     link: "/barbers/mike-johnson",
-    photo: barber1,
-  },
-  {
-    name: "Emily Davis",
-    link: "/barbers/emily-davis",
-    photo: barber1,
-  },
-  {
-    name: "Chris Brown",
-    link: "/barbers/chris-brown",
     photo: barber1,
   },
 ];

@@ -5,12 +5,14 @@ import Ourshop from "./components/ourshop";
 import Pricing from "./pages/pricing/page";
 import Services from "./pages/service/page";
 import Barbers from "./pages/barbers/page";
+// import Call from "./pages/cal/page";
 
 export default function Home() {
   return (
     <div className="bg-[#163F39]  flex flex-col">
       <Main />
       <Services />
+      {/* <Call /> */}
       <About />
       <Barbers />
       <Pricing />
