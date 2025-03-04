@@ -23,7 +23,6 @@ const BarberCard = ({ name, link, photo }: BarberCardProps) => {
       </div>
       <h2 className="text-white">{name}</h2>
       <button className="bg-[#F4CD54] rounded-full text-xl px-6 py-1 text-[#163F39]">
-        Book{" "}
         <a
           data-appointlet-modal
           href={link}
