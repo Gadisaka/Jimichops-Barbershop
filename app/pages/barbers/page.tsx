@@ -1,22 +1,23 @@
 import React from "react";
-import barber1 from "@/public/barbers/photo_2024-06-19_09-03-12.jpg";
+import barber2 from "@/public/img1.jpg";
+import barber3 from "@/public/img2.jpg";
 import BarberCard from "@/app/components/barberCard";
 
 const barbers = [
   {
     name: "Bisrat",
     link: "/barbers/john-doe",
-    photo: barber1,
+    photo: barber2,
   },
   {
     name: "Alesemunigus",
     link: "/barbers/jane-smith",
-    photo: barber1,
+    photo: barber2,
   },
   {
     name: "Rahel",
     link: "/barbers/mike-johnson",
-    photo: barber1,
+    photo: barber3,
   },
 ];
 
