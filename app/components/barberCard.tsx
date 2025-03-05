@@ -28,7 +28,7 @@ const BarberCard = ({ name, link, photo }: BarberCardProps) => {
           href={link}
           style={{ backgroundColor: "#F4CD54" }}
         >
-          Book Appointment with {name}
+          Book with {name}
         </a>
         <script async defer src="https://js.appointlet.com/"></script>
         <link
